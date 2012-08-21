@@ -39,8 +39,7 @@
   "scripts": {
   	"pretest": "./lib/parser/build.sh",
   	"test": "node ./test/test.js",
-  	"prepublish": "./lib/parser/build.sh",
-	"postinstall": "node ./postinstall.js"
+  	"prepublish": "./lib/parser/build.sh"
   },
   "contributors": [
 	"Michel Löhr (https://github.com/mlohr)"
